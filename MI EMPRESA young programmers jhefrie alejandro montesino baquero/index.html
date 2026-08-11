@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Young Programmers - Diseña el futuro, hoy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <header class="futuristic-header">
+        <div class="header-left">
+            <img src="logo.png" alt="Logo de Young Programmers" class="logo">
+            <h1>Young Programmers</h1>
+        </div>
+        <nav class="nav-buttons">
+            <a href="#mision-vision" class="nav-button">Misión & Visión</a>
+            <a href="#valores" class="nav-button">Valores</a>
+            <a href="#servicios" class="nav-button">Servicios</a>
+            <a href="#datos" class="nav-button">Contacto</a>
+            <button class="register-button" id="register-btn">Registrarse</button>
+            <button class="login-button" id="login-btn">Iniciar Sesión</button>
+            <button class="logout-button" id="logout-btn" style="display: none;">Cerrar Sesión</button>
+        </nav>
+    </header>
+
+    <main class="futuristic-main">
+        
+        <p id="welcome-message" style="display: none;">
+            <span id="welcome-text"></span> 
+            <span id="user-role" class="highlight" style="font-size: 0.9em;"></span>
+        </p> 
+        
+        <div class="section-container fade-in-section" id="mision-vision">
+            <div class="two-column-layout">
+                <section class="section-card">
+                    <h2 class="section-title highlight">Nuestra Misión</h2>
+                    <p>Impulsar organizaciones tecnológicas e innovadoras que mejoren la vida de las personas y organizaciones que transformen la manera en que el mundo se conecta, comunica y evoluciona.</p>
+                </section>
+                <section class="section-card">
+                    <h2 class="section-title highlight">Nuestra Visión</h2>
+                    <p>Ser una empresa tecnológica líder que transforme el mundo a través de soluciones innovadoras, sostenibles y centradas en las empresas y seamos reconocidos a nivel global.</p>
+                </section>
+            </div>
+        </div>
+
+        <div class="slogan-section fade-in-section">
+            <p class="slogan-text">"Diseñando el futuro, hoy."</p>
+        </div>
+
+       <div class="section-container fade-in-section" id="main-video-area">
+    <section class="section-card video-card">
+        <h2 class="section-title highlight">DESCUBRE YOUNG PROGRAMMERS</h2>
+        <div class="video-wrapper-acoplado">
+            <video 
+                id="main-video-promo" 
+                controls 
+                loop 
+                muted 
+                autoplay 
+                playsinline 
+                class="acopled-video-player">
+                
+                <source src="video_yp.mp4" type="video/mp4">
+                
+                Tu navegador no soporta el tag de video.
+            </video>
+        </div>
+        <p class="video-error-message" style="text-align: center; color: var(--accent-color);">
+            Si el video no carga, asegúrate que el archivo 'video_yp.mp4' esté en la misma carpeta.
+        </p>
+    </section>
+</div>
+                    </video>
+                </div>
+            </section>
+        </div>
+        <div class="section-container fade-in-section" id="valores">
+            <section class="section-card">
+                <h2 class="section-title highlight">Nuestros Valores</h2>
+                <ul class="values-list">
+                    <li><h3>Colaboración</h3><p>El trabajo en equipo nos permite crear soluciones más potentes. Compartimos conocimiento y construimos juntos.</p></li>
+                    <li><h3>Excelencia</h3><p>Nos esforzamos por entregar productos y servicios de la más alta calidad, con precisión y pasión.</p></li>
+                    <li><h3>Aprendizaje</h3><p>Aprender para innovar productos y servicios renovadores en cada momento.</p></li>
+                    <li><h3>Resolución de problemas</h3><p>Cada problema es una oportunidad para crear soluciones inteligentes y capaces de hacerse respetar.</p></li>
+                    <li><h3>Mejora continua</h3><p>Aprendemos constantemente. El buen software no nace, se crea y mejora con el transcurso de tiempo.</p></li>
+                    <li><h3>Agilidad</h3><p>La organización se acomoda rápidamente a los cambios y actuamos con rapidez sin perder de vista aquellos objetivos marcados en nuestra empresa.</p></li>
+                    <li><h3>Respeto</h3><p>Tolerancia hacia los compañeros de trabajo y una comunicación asertiva y dinámica para la solución de problemas.</p></li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="section-container fade-in-section" id="servicios">
+            <section class="section-card">
+                <h2 class="section-title highlight">Nuestros Servicios</h2>
+                <ul class="services-list">
+                    <li>
+                        <h3>Diseño y desarrollo de sitios web</h3>
+                        <p>Creamos sitios web modernos, funcionales y perfeccionados...</p>
+                        <div class="image-container">
+                            <img src="desarrollo-web.jpg" alt="Ilustración de Desarrollo Web">
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Diagnóstico tecnológico para empresas</h3>
+                        <p>Evaluamos cómo se utiliza la tecnología dentro de la organización...</p>
+                        <div class="image-container">
+                            <img src="diagnostico-empresarial.png" alt="Imagen de diagnóstico empresarial">
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Desarrollo de aplicaciones web y móviles</h3>
+                        <p>Diseñamos y desarrollamos aplicaciones web y móviles a medida...</p>
+                        <div class="image-container">
+                            <img src="desarrollo-moviles.png" alt="Imagen de desarrollo de aplicaciones móviles">
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Soporte técnico remoto</h3>
+                        <p>A través de herramientas seguras de acceso remoto...</p>
+                        <div class="image-container">
+                            <img src="soporte-remoto.png" alt="Imagen de soporte técnico remoto">
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="section-container fade-in-section" id="datos">
+            <section class="section-card" id="datos-empresariales">
+                <h2 class="section-title highlight">Datos Empresariales</h2>
+                <div class="content">
+                    <div>
+                        <h3>Correos</h3>
+                        <p>elkarma850@gmail.com</p>
+                        <p>ssantanatavera479@gmail.com</p>
+                    </div>
+                    <div>
+                        <h3>Teléfonos <span class="highlight">(Click para WhatsApp)</span></h3>
+                        <p>
+                            <a href="https://wa.me/573222809954" target="_blank" class="whatsapp-link">
+                                3222809954
+                            </a>
+                        </p>
+                        <p>
+                            <a href="https://wa.me/573118685224" target="_blank" class="whatsapp-link">
+                                3118685224
+                            </a>
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Dirección <span class="highlight">(Click para Mapa)</span></h3>
+                        <p>
+                            <a href="https://www.google.com/maps/search/?api=1&query=CALLE+63A+SUR+%23+65+-+08,+Bogotá" target="_blank" class="map-link">
+                                CALLE 63A SUR # 65 - 08
+                            </a>
+                        </p>
+                        <p>
+                            <a href="https://www.google.com/maps/search/?api=1&query=Cll70%2348a38sur,+Bogotá" target="_blank" class="map-link">
+                                Cll70#48a38sur
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="section-card" id="canales-de-pago">
+                <h2 class="section-title highlight">Canales de Pago</h2>
+                <p><strong>Nequi:</strong> Nuestra empresa cuenta con Nequi como medio de pago...</p>
+                <p><strong>Daviplata:</strong> En nuestra empresa aceptamos Daviplata...</p>
+                <div class="image-container">
+                    <img src="nequi-daviplata.png" alt="Logos de Nequi y Daviplata">
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" id="close-login-btn">×</span>
+            <h2 class="form-title highlight">Inicio de Sesión</h2>
+            <form id="login-form">
+                <div class="input-group">
+                    <label for="login-username">Usuario</label>
+                    <input type="text" id="login-username" required>
+                </div>
+                <div class="input-group">
+                    <label for="login-password">Contraseña</label>
+                    <input type="password" id="login-password" required>
+                </div>
+                <div class="input-group">
+                    <label for="login-role">Rol</label>
+                    <select id="login-role">
+                        <option value="Usuario">Usuario</option>
+                        <option value="Administrador">Administrador</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-button" onclick="event.preventDefault(); login();">Acceder</button>
+            </form>
+            <p id="login-message" class="message"></p>
+        </div>
+    </div>
+
+    <div id="register-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" id="close-register-btn">×</span>
+            <h2 class="form-title highlight">Registro de Nuevo ID</h2>
+            <form onsubmit="event.preventDefault(); register();">
+                
+                <div class="input-group">
+                    <label for="register-name">Nombre:</label>
+                    <input type="text" id="register-name" placeholder="Tu nombre o de pila">
+                </div>
+                <div class="input-group">
+                    <label for="register-lastname">Apellidos:</label>
+                    <input type="text" id="register-lastname" placeholder="Tus apellidos">
+                </div>
+                
+                <div class="input-group required-input">
+                    <label>Género <span class="required-star">*</span>:</label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="register-gender" value="Hombre" id="gender-hombre" required> Hombre
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="register-gender" value="Mujer" id="gender-mujer"> Mujer
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="register-gender" value="Otro" id="gender-otro"> Otro
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="input-group">
+                    <label for="register-email">Correo (Opcional):</label>
+                    <input type="email" id="register-email" placeholder="ejemplo@dominio.com">
+                </div>
+                
+                <div class="input-group required-input">
+                    <label for="register-username">Crear Usuario/ID <span class="required-star">*</span>:</label>
+                    <input type="text" id="register-username" required placeholder="ID de acceso al sistema">
+                </div>
+                <div class="input-group required-input">
+                    <label for="register-password">Crear Contraseña <span class="required-star">*</span>:</label>
+                    <input type="password" id="register-password" required placeholder="Mínimo 4 caracteres">
+                </div>
+
+                <div class="input-group checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="register-newsletter"> Deseo recibir información sobre novedades y ofertas.
+                    </label>
+                </div>
+                <div class="input-group checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="register-terms" required> Declaro haber leído y aceptar las <a href="#" class="map-link">condiciones generales</a> <span class="required-star">*</span>.
+                    </label>
+                </div>
+                
+                <p id="register-message" class="message"></p>
+                <button type="submit" class="submit-button">CONFIRMAR REGISTRO</button>
+            </form>
+        </div>
+    </div>
+    
+    <div class="ia-assistant-container">
+        <button id="chat-toggle-btn" class="ia-toggle-btn">
+            <img src="ia-robot.jpg" alt="Asistente Syntax Laughter" class="ia-robot-icon">
+        </button>
+
+        <div id="ia-chat-window" class="ia-chat-window">
+            <div class="chat-header">
+                <h3 class="highlight">Syntax Laughter // Soporte Digital</h3>
+                <span id="close-chat-btn" class="close-chat-btn">×</span>
+            </div>
+            
+            <div class="chat-body" id="chat-body">
+            </div>
+
+            <div class="options-container" id="options-container">
+            </div>
+            
+            <div id="ia-typing-indicator" class="ia-typing-indicator" style="display: none; padding-left: 10px;">
+                Syntax Laughter está escribiendo...
+            </div>
+
+            <div class="chat-input">
+                <input type="text" id="user-input" placeholder="Escribe tu pregunta aquí...">
+                <button id="send-btn" class="send-btn">Enviar</button>
+            </div>
+        </div>
+    </div>
+    <footer class="futuristic-footer">
+        <div class="footer-content">
+            <p>© 2025 Young Programmers. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="#mision-vision">Sobre Nosotros</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#datos">Contacto</a>
+            </div>
+        </div>
+        <p class="footer-tagline">Code the Future.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
